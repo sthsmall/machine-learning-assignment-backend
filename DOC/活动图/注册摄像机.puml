@@ -1,0 +1,7 @@
+@startuml
+start
+:点击“摄像机”标记;
+:输入摄像机信息;
+:确认并提交信息;
+stop
+@enduml

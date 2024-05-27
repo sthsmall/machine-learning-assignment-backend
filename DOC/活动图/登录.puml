@@ -1,0 +1,11 @@
+@startuml
+start
+:输入用户名和密码;
+:验证凭据;
+if (凭据有效?) then (是)
+    :登录成功;
+else (否)
+    :显示错误信息;
+endif
+stop
+@enduml

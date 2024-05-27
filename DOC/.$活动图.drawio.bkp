@@ -1,0 +1,109 @@
+<mxfile host="Electron" modified="2024-05-20T16:29:31.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="O_DPad-qOf1BjzrHdhy3" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="1oCqTrLppgWgWZjxrMQB">
+    <mxGraphModel dx="1562" dy="2086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-4" target="T_Ptdm1HrB9L-p87L4nu-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-4" target="T_Ptdm1HrB9L-p87L4nu-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-4" target="T_Ptdm1HrB9L-p87L4nu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-5" value="注册摄像机" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-6" value="编辑摄像机信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-4" target="T_Ptdm1HrB9L-p87L4nu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="140" as="sourcePoint" />
+            <mxPoint x="260" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-4" target="T_Ptdm1HrB9L-p87L4nu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-10" value="获取摄像机&lt;br&gt;火灾&lt;span style=&quot;background-color: initial;&quot;&gt;检测结果&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-12" value="获取着火点中心" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-13" target="T_Ptdm1HrB9L-p87L4nu-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-13" value="注册摄像机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-15" target="T_Ptdm1HrB9L-p87L4nu-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-15" value="点击界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-17" value="注册背景" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-19" target="T_Ptdm1HrB9L-p87L4nu-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-19" value="输入基本信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-21" value="点击确定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-23" target="T_Ptdm1HrB9L-p87L4nu-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-23" value="修改摄像机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-25" target="T_Ptdm1HrB9L-p87L4nu-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-25" value="点击标记" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_Ptdm1HrB9L-p87L4nu-27" target="T_Ptdm1HrB9L-p87L4nu-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-27" value="输入基本信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_Ptdm1HrB9L-p87L4nu-28" value="点击确定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

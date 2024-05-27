@@ -1,0 +1,23 @@
+@startuml
+actor 用户 as User
+entity "Vue前端" as VueFrontend
+entity "Python后端" as PythonBackend
+database "摄像机数据" as CameraData
+
+User -> VueFrontend : 按时间间隔请求监控界面
+VueFrontend -> PythonBackend : 请求最新检测数据
+PythonBackend -> CameraData : 检索摄像机数据
+CameraData -> PythonBackend : 返回检测数据
+
+
+alt 火灾检测为真
+    PythonBackend -> PythonBackend : 使用YOLOv5检测火灾
+    PythonBackend -> PythonBackend : 使用DBSCAN计算火灾中心
+    PythonBackend -> VueFrontend : 返回火灾位置和警报
+    VueFrontend -> User : 显示火灾警报和位置
+else 无火灾活动
+    PythonBackend -> VueFrontend : 返回无火灾状态
+    VueFrontend -> User : 显示正常监控状态
+end
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+
+
+usecase 登录 as "登录"
+usecase 注册 as "注册"
+
+usecase "编辑摄像机" as EditCam
+usecase "注册摄像机" as RegCam
+usecase "删除摄像机" as DelCam
+usecase "编辑摄像机信息" as EditCamInfo
+
+usecase "火灾检测与响应" as FireResponse
+usecase "获取摄像机火灾检测结果" as FireDetect
+usecase "获取着火点中心" as FireCenter
+
+usecase "注册背景图" as RegBack
+
+EditCam <|-- RegCam
+EditCam <|-- DelCam
+EditCam <|-- EditCamInfo
+
+FireResponse <|-- FireDetect
+FireResponse <|-- FireCenter
+
+用户 --> 登录
+用户 --> 注册
+用户 --> EditCam
+用户 --> FireResponse
+用户 --> RegBack
+
+@enduml

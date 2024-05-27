@@ -1,0 +1,12 @@
+@startuml
+start
+:输入个人信息;
+:提交注册信息;
+:验证信息合规性;
+if (信息有效?) then (是)
+    :注册成功;
+else (否)
+    :显示错误信息;
+endif
+stop
+@enduml
